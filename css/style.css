@@ -121,7 +121,7 @@ input.search-bar {
 }
 
 .ul-card {
-    padding: 10px;
+    padding: 0px 10px 20px;
 }
 
 .ms_body-card h3 {
@@ -133,6 +133,10 @@ input.search-bar {
 .li-card {
     border-bottom: 1px solid var(--body-card-border);
     padding: 8px 5px 10px;
+}
+
+.li-card .col {
+    text-align: center;
 }
 
 .li-card h4 {
