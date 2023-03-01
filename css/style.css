@@ -9,6 +9,11 @@ ul {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* ************** |WEB APP LAYOUT| ************** */
 .mc-wrapper {
     width: 100%;
@@ -89,6 +94,23 @@ input.search-bar {
 
 .navbar-menu i.fa-bell {
     color: #FF8F00;
+}
+
+/* ************** |SIDEBAR| ************** */
+.side-bar-ul {
+    padding-top: 2rem;
+}
+
+.side-bar-ul li,
+.options {
+    margin: 0 auto;
+    font-size: 1.4rem;
+    padding: .4rem 0;
+    color: white;
+}
+
+.side-bar-ul {
+    margin: 0 auto;
 }
 
 /* ************** |VARIABLES| ************** */
