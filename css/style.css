@@ -1,0 +1,45 @@
+/* ****************************************
+************* |WEB APP LAYOUT| ************
+**************************************** */
+.mc-wrapper {
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.header {
+    z-index: 999;
+    width: 100%;
+    height: var(--header-h);
+    background-color: var(--header-bgnd);
+}
+
+.nav-side-bar {
+    width: var(--side-bar-w);
+    height: calc(100vh - var(--header-h));
+    background-image: url(../img/sidebar-bg.png);
+    background-color: var(--sidebar-bgnd);
+
+}
+
+.body {
+    background-color: aqua;
+    width: calc(100% - var(--side-bar-w));
+    height: calc(100vh - var(--header-h));
+}
+
+/* ****************************************
+***************** |VARIABLES| *************
+**************************************** */
+/* layout */
+:root {
+    --side-bar-w: 100px;
+    --header-h: 80px;
+}
+
+/* color */
+:root {
+    /* bgnd */
+    --header-bgnd: #F8F9FA;
+    --sidebar-bgnd: #051E34;
+}
