@@ -1,4 +1,17 @@
 /* ****************************************
+****************** |RESET| ****************
+**************************************** */
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ****************************************
 ************* |WEB APP LAYOUT| ************
 **************************************** */
 .mc-wrapper {
@@ -25,6 +38,7 @@
 .body {
     width: calc(100% - var(--side-bar-w));
     height: calc(100vh - var(--header-h));
+    overflow-y: auto;
     /* debug */
     background-color: aqua;
 }
@@ -36,7 +50,49 @@
     background-color: var(--body-header-bgnd);
 }
 
+/* ****************************************
+**************** |NAV BAR| ****************
+**************************************** */
+.header .container-fluid {
+    background-color: white;
+}
 
+.small-logo {
+    height: 50px;
+}
+
+.big-logo {
+    height: 35px;
+}
+
+.header .search-bar {
+    background-color: var(--input-srch);
+}
+
+input.search-bar {
+    border: none;
+}
+
+.search-bar:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.search-bar:focus-visible {
+    outline: none;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin-left: 5px;
+}
+
+.navbar-menu i.fa-bell {
+    color: #FF8F00;
+}
 
 /* ****************************************
 ***************** |VARIABLES| *************
@@ -44,7 +100,7 @@
 /* layout */
 :root {
     --side-bar-w: 80px;
-    --header-h: 80px;
+    --header-h: 70px;
     --body-header-h: 400px;
 }
 
@@ -54,7 +110,29 @@
     --header-bgnd: #F8F9FA;
     --sidebar-bgnd: #051E34;
     --body-header-bgnd: #1B72E8;
+    --input-srch: #E5E5E5;
 }
+
+/* ****************************************
+************** |PSEUDO ICON| **************
+**************************************** */
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* search bar icon */
+.search-bar::before {
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-left: 5px;
+}
+
+
 
 /* ****************************************
 *************** |RESPONSIVE| **************
@@ -68,7 +146,7 @@
     
 }
 
-@media screen and (min-width:900px) {
+@media screen and (min-width:992px) {
     /* layout */
     :root {
         --side-bar-w: 180px;
