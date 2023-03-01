@@ -41,7 +41,7 @@ a {
     height: calc(100vh - var(--header-h));
     overflow-y: auto;
     /* debug */
-    background-color: aqua;
+    background-color: var(--header-bgnd);
 }
 
 /* body inner layout */
