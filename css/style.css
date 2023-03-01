@@ -113,6 +113,76 @@ input.search-bar {
     margin: 0 auto;
 }
 
+/* ************** |BODY| ************** */
+/* main content card*/
+.ms_body-card {
+    border: 2px solid var(--body-card-border);
+    background-color: white;
+}
+
+.ul-card {
+    padding: 10px;
+}
+
+.ms_body-card h3 {
+    padding: 10px 10px 20px;
+    border-bottom: 2px solid var(--body-card-border);
+    background-color: var(--header-bgnd);
+}
+
+.li-card {
+    border-bottom: 1px solid var(--body-card-border);
+    padding: 8px 5px 10px;
+}
+
+.li-card h4 {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.ms_col-big {
+    flex-grow: 1;
+}
+
+.card-img {
+    border-radius: 50%;
+    max-width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.label-card {
+    color: white;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 3px 8px;
+}
+
+button.card-action {
+    font-size: 12px;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    color: #6C757D;
+    border-radius: 6px;
+    border: 1px solid #6C757D;
+}
+
+/* label card style */
+.label-card.done {
+    background-color: #198754;
+}
+
+.label-card.process {
+    background-color: #FFC107;
+}
+
+.label-card.failed {
+    background-color: #DC3545;
+}
+
 /* ************** |VARIABLES| ************** */
 /* layout */
 :root {
@@ -128,6 +198,8 @@ input.search-bar {
     --sidebar-bgnd: #051E34;
     --body-header-bgnd: #1B72E8;
     --input-srch: #E5E5E5;
+    /* border */
+    --body-card-border: #E5E5E5;
 }
 
 /* ************** |PSEUDO ICON| ************** */
