@@ -229,7 +229,7 @@ button.card-action {
 @media screen and (min-width:768px) {
     /* layout */
     :root {
-        --body-header-h: 180px;
+        --body-header-h: 140px;
     }
     
 }
