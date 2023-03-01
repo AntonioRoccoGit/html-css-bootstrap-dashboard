@@ -190,7 +190,7 @@ button.card-action {
 /* ************** |VARIABLES| ************** */
 /* layout */
 :root {
-    --side-bar-w: 80px;
+    --side-bar-w: 60px;
     --header-h: 70px;
     --body-header-h: 400px;
 }
@@ -237,7 +237,7 @@ button.card-action {
 @media screen and (min-width:992px) {
     /* layout */
     :root {
-        --side-bar-w: 180px;
+        --side-bar-w: 150px;
     }
     
 }
