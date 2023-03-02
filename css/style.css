@@ -114,6 +114,46 @@ input.search-bar {
 }
 
 /* ************** |BODY| ************** */
+/* body header */
+.body-header {
+    color: white;
+}
+
+.header-label {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.247);
+    font-size: .7em;
+    padding: .2rem .6rem;
+}
+
+.body-header span.rounded-circle {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.new-student h2 {
+    font-size: 1rem;
+    display: inline-block;
+}
+
+/* form hidden */
+.ms_hide-form-btn {
+    background-color: var(--body-header-bgnd);
+    border: 1px solid white;
+    color: inherit;
+    display: inline-block;
+    margin-left: .5rem;
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.offcanvas.offcanvas-end {
+    width: 100%;
+}
+
 /* main content card*/
 .ms_body-card {
     border: 2px solid var(--body-card-border);
@@ -249,4 +289,8 @@ button.card-action {
     :root {
         --side-bar-w: 150px;
     }
+    .offcanvas.offcanvas-end {
+        width: 45%;
+    }
+    
 }
