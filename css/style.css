@@ -120,7 +120,8 @@ input.search-bar {
     background-color: white;
 }
 
-.ul-card {
+.ul-card,
+.ms_card-table {
     padding: 0px 10px 20px;
 }
 
@@ -139,7 +140,7 @@ input.search-bar {
     text-align: center;
 }
 
-.li-card h4 {
+h4.table-name {
     display: inline-block;
     font-size: 1rem;
     margin: 0;
@@ -172,6 +173,11 @@ button.card-action {
     color: #6C757D;
     border-radius: 6px;
     border: 1px solid #6C757D;
+}
+
+.special-tag {
+    color: #0D6EFD;
+    text-decoration: underline;
 }
 
 /* label card style */
