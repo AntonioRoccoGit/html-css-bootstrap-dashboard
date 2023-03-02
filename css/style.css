@@ -140,6 +140,10 @@ input.search-bar {
     text-align: center;
 }
 
+.ul-card h4 {
+    font-size: 1rem;
+}
+
 h4.table-name {
     display: inline-block;
     font-size: 1rem;
@@ -245,5 +249,4 @@ button.card-action {
     :root {
         --side-bar-w: 150px;
     }
-    
 }
